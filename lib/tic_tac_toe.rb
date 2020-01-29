@@ -5,7 +5,7 @@ until over?(board) == true
 end
 if draw?(board) == true
   puts "Cat's Game!"
-elsif won?(board) != nil 
+elsif won?(board) != nil
   v = winner(board)
   puts "Congratulations #{v}!"
 
