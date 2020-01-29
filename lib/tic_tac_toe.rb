@@ -4,7 +4,7 @@ until over?(board) == true
   turn(board)
 end
 if won?(board) == true
-  puts "congratulations " + winner(board) + "!"
+  puts "Congratulations " + winner(board) + "!"
 end
 end
 
