@@ -7,6 +7,8 @@ if draw?(board) == true
   puts "Cat's Game!"
 elsif won?(board) != false && winner(board) == "X"
   puts "Congratulations X!"
+elsif won?(board) != false && winner(board) == "O"
+  puts "Congratulations O!"
 end
 end
 
