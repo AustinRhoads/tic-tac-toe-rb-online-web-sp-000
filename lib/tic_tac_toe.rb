@@ -1,11 +1,9 @@
 #play method
 def play(board)
-
+if won?(board) == nil
 until over?(board) == true
   turn(board)
-  if won?(board) == true
-    puts "Congratulations X!"
-  end
+end
 end
 end
 
