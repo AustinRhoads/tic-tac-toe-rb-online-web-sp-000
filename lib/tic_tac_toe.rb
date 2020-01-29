@@ -117,7 +117,7 @@ def draw?(board)
   if  won?(board) == nil && full?(board) == true
     return true
   end
-  
+
 end
 
 
