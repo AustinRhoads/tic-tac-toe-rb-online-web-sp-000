@@ -52,19 +52,13 @@ end
 
 #valid_move method
 def valid_move?(board, index)
-  if index >= 0 && index <= 8
-    return !position_taken?(board, index)
-  else
-    return false
-  end
+  index.between?(0,8) && !position_taken?(board, index)
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-def position_taken?(board, index)
-  space = board[index]
-  return !(space == " " || space == "" || space == nil)
+def position_taken?(board, location)
+  board[location] != " " && board[location] != ""
 end
-
 
 
 # Define your WIN_COMBINATIONS constant
