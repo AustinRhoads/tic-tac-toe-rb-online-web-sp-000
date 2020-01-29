@@ -1,5 +1,7 @@
 #play method
+def play(board)
 
+end
 
 
 #this congratulates the winner
