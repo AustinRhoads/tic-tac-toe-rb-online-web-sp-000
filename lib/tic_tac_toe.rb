@@ -1,5 +1,8 @@
 #play method
 def play(board)
+  if draw?(board) == true
+    puts "Cat's Game"
+  end
 
 while over?(board) == false
   turn(board)
