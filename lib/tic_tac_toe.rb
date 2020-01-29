@@ -5,8 +5,8 @@ until over?(board) == true
 end
 if draw?(board) == true
   puts "Cat's Game!"
-elsif won?(board) == true
-  puts "Congratulations X!"
+elsif won?(board) != false
+  puts "shitfuck"
 end
 end
 
