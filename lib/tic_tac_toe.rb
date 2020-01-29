@@ -1,7 +1,7 @@
 #play method
 def play(board)
 
-until over?(board) == true
+while over?(board) == false
   turn(board)
 
 end
