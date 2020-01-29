@@ -4,11 +4,9 @@
       "/home/wonderful-attribute-5483/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
         null,
         1,
-        null,
         12,
+        8,
         16,
-        16,
-        0,
         null,
         null,
         null,
@@ -97,11 +95,11 @@
         null,
         null,
         1,
-        60,
+        52,
         null,
         null,
-        60,
-        432,
+        52,
+        372,
         null,
         null,
         null,
@@ -127,8 +125,8 @@
         null,
         null,
         1,
-        23,
-        12,
+        19,
+        8,
         null,
         null,
         null,
@@ -168,6 +166,6 @@
         null
       ]
     },
-    "timestamp": 1580256948
+    "timestamp": 1580257090
   }
 }
