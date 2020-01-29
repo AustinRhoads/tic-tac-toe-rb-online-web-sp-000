@@ -1,11 +1,5 @@
 #play method
-def play(board)
 
-while over?(board) == false
-  turn(board)
-
-end
-end
 
 
 #this congratulates the winner
