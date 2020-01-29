@@ -1,9 +1,9 @@
 #play method
 def play(board)
-if won?(board) == nil
+
 until over?(board) == true
   turn(board)
-end
+
 end
 end
 
