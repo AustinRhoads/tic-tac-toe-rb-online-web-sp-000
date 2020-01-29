@@ -6,6 +6,7 @@ end
 if won?(board) == true
   puts "congratulations " + winner(board) + "!"
 end
+end
 
 
 #this congratulates the winner
