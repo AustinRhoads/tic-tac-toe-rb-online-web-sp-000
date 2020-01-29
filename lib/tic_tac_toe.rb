@@ -5,6 +5,7 @@ until over?(board) == true
   turn(board)
   if won?(board) == true
     puts "Congratulations X!"
+  end
 end
 end
 
